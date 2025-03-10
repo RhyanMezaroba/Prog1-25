@@ -1,0 +1,3 @@
+Com base no exemplo feito no laboratório com os tipos inteiros das variáveis totalCount e userCount, que foram exibidos em tela no Home/Index, contidos na classe variáveis faça:
+
+Na página 47 do livro é possível acessar os valores mínimos e máximos para os demais tipos numéricos (tabela). Edite a classe variáveis, crie novos atributos a ela e armazene os valores Min e Max de cada tipo numérico para em seguida exibir em tela no Home/Index.
