@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\models\\variaveis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\models\\variaveis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Aula01\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Aula01\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEMAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T00:25:16.482Z",
+              "Title": "TesteController.cs",
+              "DocumentMoniker": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Controllers\\TesteController.cs",
+              "RelativeDocumentMoniker": "Aula01\\Controllers\\TesteController.cs",
+              "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Controllers\\TesteController.cs",
+              "RelativeToolTip": "Aula01\\Controllers\\TesteController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T23:16:57.533Z",
               "EditorCaption": ""
             },
             {
@@ -49,22 +53,35 @@
               "RelativeDocumentMoniker": "Aula01\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Aula01\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:20:11.412Z",
+              "WhenOpened": "2025-03-10T23:22:26.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teste.cshtml",
+              "DocumentMoniker": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Teste.cshtml",
+              "RelativeDocumentMoniker": "Aula01\\Views\\Teste\\Teste.cshtml",
+              "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Teste.cshtml",
+              "RelativeToolTip": "Aula01\\Views\\Teste\\Teste.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T23:47:53.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Variaveis.cs",
-              "DocumentMoniker": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Models\\Variaveis.cs",
-              "RelativeDocumentMoniker": "Aula01\\Models\\Variaveis.cs",
-              "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Models\\Variaveis.cs",
-              "RelativeToolTip": "Aula01\\Models\\Variaveis.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T23:21:57.542Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aula01\\Views\\Teste\\Index.cshtml",
+              "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Index.cshtml",
+              "RelativeToolTip": "Aula01\\Views\\Teste\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T23:47:30.622Z",
               "EditorCaption": ""
             }
           ]

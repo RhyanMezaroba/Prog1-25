@@ -37,7 +37,7 @@
         public ushort minUshort = 0;
         public ushort maxUshort = 65535;
         public int minInt = -2147483648;
-        public int maxInt = -2147483647;
+        public int maxInt = 2147483647;
         public uint minUint = 0;
         public uint maxUint = 4264967295;
         public long minLong = -9223372036854775808;
