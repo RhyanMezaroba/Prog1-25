@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Título"] = "Página Principal";
+}
+
+<div class="text-center">
+	<h1>class="display-4">Bem vindo ao Conext!</h1>
+</div>
+
+<hr>
+
+	<form method="post" asp-action="Index" asp-controller="Home">
+
+		<input type="number" id="texto" name="texto" />
+		<input type="submit" value="Postar" />
+
+	</form>
+
+</hr>
+
+@if (!string.IsNullOrEmpty(Model.Texto))
+{
+	<div>
+		<span>Texto convertido: </span>
+		<strong>@Model.Texto</strong>
+	</div>
+}

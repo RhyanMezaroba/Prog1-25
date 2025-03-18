@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Cliente\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\Ferramentas\\NuGetPackages": {}
+    "C:\\Users\\428214\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\Prog1-25\\Atividades\\Aula01\\Aula01\\Aula01.csproj",
+      "projectUniqueName": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Aula01.csproj",
       "projectName": "Aula01",
-      "projectPath": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\Prog1-25\\Atividades\\Aula01\\Aula01\\Aula01.csproj",
-      "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\Prog1-25\\Atividades\\Aula01\\Aula01\\obj\\",
+      "projectPath": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Aula01.csproj",
+      "packagesPath": "C:\\Users\\428214\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Visual Studio\\Ferramentas\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\428214\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

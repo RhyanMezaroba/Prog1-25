@@ -1,0 +1,60 @@
+﻿@model DataType
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table class="table table-bordered table-responsive table-hover table-dark table-striped">
+    <thead>
+        <tr>
+            <th>Variável</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>myVar</td>
+            <td>@Model.myVar</td>
+        </tr>
+
+        <tr>
+            <td>myConst</td>
+            <td>@Model.myConst</td>
+        </tr>
+
+        <tr>
+            <td>myChar1</td>
+            <td>@Model.myChar1</td>
+        </tr>
+
+        <tr>
+            <td>myChar2</td>
+            <td>@Model.myChar2</td>
+        </tr>
+
+        <tr>
+            <td>myChar3</td>
+            <td>@Model.myChar3</td>
+        </tr>
+
+        <tr>
+            <td>myChar4</td>
+            <td>@Model.myChar4</td>
+        </tr>
+
+        <tr>
+            <td>textLine</td>
+            <td>@Model.textLine</td>
+        </tr>
+
+        <tr>
+            <td>Message</td>
+            <td>@Model.message</td>
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+
+    </tbody>
+</table>
