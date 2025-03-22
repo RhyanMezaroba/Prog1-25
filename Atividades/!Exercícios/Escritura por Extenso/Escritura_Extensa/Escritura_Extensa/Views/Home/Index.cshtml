@@ -1,26 +1,16 @@
 ﻿@{
-    ViewData["Título"] = "Página Principal";
+    ViewData["Title"] = "Conversor de Números por Extenso";
 }
 
-<div class="text-center">
-	<h1>class="display-4">Bem vindo ao Conext!</h1>
-</div>
+<h2">Conversor de Números por Extenso</h2>
 
-<hr>
+<form method="post" asp-action="ConverterNumero">
+    <label for="numero">Digite um número:</label>
+    <input type="text" id="numero" name="numero" required />
+    <button type="submit">Converter</button>
+</form>
 
-	<form method="post" asp-action="Index" asp-controller="Home">
-
-		<input type="number" id="texto" name="texto" />
-		<input type="submit" value="Postar" />
-
-	</form>
-
-</hr>
-
-@if (!string.IsNullOrEmpty(Model.Texto))
+@if (ViewBag.NumeroExtenso != null)
 {
-	<div>
-		<span>Texto convertido: </span>
-		<strong>@Model.Texto</strong>
-	</div>
+    <h3>Resultado: @ViewBag.NumeroExtenso</h3>
 }
