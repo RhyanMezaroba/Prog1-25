@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="width: 50%; margin: 0 auto;">
+    <form method="get" asp-action="GetIf">
+        <div class="form-group">
+            <label for = "xDoif">Valor de X:</label>
+            <input type = "text" name = "x" id = "xDoIf"/>
+        </div>
+        <button type="submit">
+            GetIf
+        </button>
+    </form>
+</div>
+<br>
+<br>
+<div style="width: 50%; margin: 0 auto;">
+    <form method="get" asp-action="GetSwitch">
+        <div class="form-group">
+            <label for="xDoSwitch">Valor de X:</label>
+            <input type="text" name="x" id="xDoSwitch" />
+        </div>
+        <button type="submit">
+            GetSwitch
+        </button>
+    </form>
+</div>
+<br>
+<br>
+<div style="width: 50%; margin: 0 auto;">
+    <form method="get" asp-action="GetFor">
+        <div class="form-group">
+            <label for="xDoFor">Valor de X:</label>
+            <input type="text" name="x" id="xDoFor" />
+        </div>
+        <button type="submit">
+            GetFor
+        </button>
+    </form>
+</div>

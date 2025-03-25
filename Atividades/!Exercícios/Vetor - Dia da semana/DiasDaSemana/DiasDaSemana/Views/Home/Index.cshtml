@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="width: 50%; margin: 0 auto;">
+    <h2>Calcular o dia da semana</h2>
+    <form method="post" asp-action="DiaDaSemana">
+        <div class="form-group">
+            <label for="numero">Número de dias</label>
+            <input type="number" id="numero" name="numero" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Calcular</button>
+    </form>
+</div>

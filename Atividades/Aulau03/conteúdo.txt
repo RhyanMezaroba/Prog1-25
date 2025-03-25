@@ -1,0 +1,4 @@
+View
+GUI - Graphic user interface
+UI - User Interference
+UX - User Expirience
