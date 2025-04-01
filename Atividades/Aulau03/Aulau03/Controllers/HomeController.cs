@@ -100,7 +100,7 @@ namespace Aulau03.Controllers
         }
 
         [HttpGet]
-        public string GetFor()
+        public string GetFor(int x)
         {
             string retorno = string.Empty;
             /* O comando de repetição FOR, possui a seguinte sintaxe:
@@ -115,9 +115,44 @@ namespace Aulau03.Controllers
              * ou decrécimo (acumulador);
              */
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 1; i <= x; i++)
             {
+                //E se eu quisesse interromper o laço caso ele fosse maior que 5
+
+                if (i > 50)
+                    break; //Comando BREAK interrompe o laço
+
+                //Caso eu deseje que o laço siga em frente, forçando-o a continuar a execução
+                if ((i % 2) != 0)
+                    continue;
+
                 retorno += $"{i};";
+            }
+
+            return retorno;
+        }
+
+        [HttpGet]
+        public string GetForeach(string color)
+        {
+            /* O comando foreach (para cada) é utilizado para iterar por uma sequência de items em uma coleção, e servir como uma
+             * opção simples de repetição
+            */
+
+            string[] colors = { "Vermelho", "Preto", "Azul", "Amarelo", "Branco", "Azul-marinho", "Rosa", "Roxo", "Cinza"};
+
+            string retorno = string.Empty;
+
+            if (colors.Contains(char.ToUpper(color[0]) + color.Substring(1)))
+
+                retorno = "A cor escolhida é válida!";
+
+            else
+                retorno = "Cor escolhida inválida!";
+
+            foreach (string s in colors)
+            {
+                retorno += $"[{s}]";
             }
 
             return retorno;
