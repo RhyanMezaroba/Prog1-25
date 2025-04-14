@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\",
+  "WorkspaceRootPath": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\428214\\desktop\\prog-1-25\\atividades\\aula01\\aula01\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\cliente\\desktop\\rhyan\\facul\\mauricio gonzatto\\2025_prog1\\atividades\\aula01\\aula01\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\cliente\\desktop\\rhyan\\facul\\mauricio gonzatto\\2025_prog1\\atividades\\aula01\\aula01\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|c:\\users\\cliente\\desktop\\rhyan\\facul\\mauricio gonzatto\\2025_prog1\\atividades\\aula01\\aula01\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0386060-FE66-4153-AD3E-64D20366B4AA}|Aula01\\Aula01.csproj|solutionrelative:aula01\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TesteController.cs",
-              "DocumentMoniker": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Controllers\\TesteController.cs",
+              "DocumentMoniker": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\Aula01\\Controllers\\TesteController.cs",
               "RelativeDocumentMoniker": "Aula01\\Controllers\\TesteController.cs",
-              "ToolTip": "C:\\Users\\428214\\Desktop\\Prog-1-25\\Atividades\\Aula01\\Aula01\\Controllers\\TesteController.cs",
+              "ToolTip": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\Aula01\\Controllers\\TesteController.cs",
               "RelativeToolTip": "Aula01\\Controllers\\TesteController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwCkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T21:57:14.961Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teste.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Teste.cshtml",
+              "RelativeDocumentMoniker": "Aula01\\Views\\Teste\\Teste.cshtml",
+              "ToolTip": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Teste.cshtml",
+              "RelativeToolTip": "Aula01\\Views\\Teste\\Teste.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T00:23:25.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aula01\\Views\\Teste\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cliente\\Desktop\\Rhyan\\Facul\\Mauricio Gonzatto\\2025_Prog1\\Atividades\\Aula01\\Aula01\\Views\\Teste\\Index.cshtml",
+              "RelativeToolTip": "Aula01\\Views\\Teste\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T00:23:23.953Z"
             }
           ]
         }
