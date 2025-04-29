@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Veterinária</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .hero-section {
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .hero-section h1 {
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+        .card:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero-section">
+        <h1>Sistema de Gestão da Clínica Veterinária</h1>
+    </div>
+
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Animais</h5>
+                        <p class="card-text">Cadastre e consulte os pets atendidos.</p>
+                        <a href="/animais" class="btn btn-primary">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Veterinários</h5>
+                        <p class="card-text">Gerencie os dados dos profissionais parceiros.</p>
+                        <a href="/veterinarios" class="btn btn-success">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Atendimentos</h5>
+                        <p class="card-text">Registre atendimentos realizados e datas.</p>
+                        <a href="/atendimentos" class="btn btn-info">Acessar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Procedimentos</h5>
+                        <p class="card-text">Liste os procedimentos médicos aplicados.</p>
+                        <a href="/procedimentos" class="btn btn-warning">Acessar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
