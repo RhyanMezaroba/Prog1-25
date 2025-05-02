@@ -1,8 +1,37 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Recursividade";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Recursividade em C#</h2>
+
+<hr />
+<h4>1. Imprimir de N até 1 (recursivamente)</h4>
+<form method="get" action="/Home/PrintDescending">
+    <label for="n1">Digite um número:</label>
+    <input type="number" name="n" id="n1" value="10" />
+    <button type="submit">Executar</button>
+</form>
+
+<hr />
+<h4>2. Somar os números de 1 até N</h4>
+<form method="get" action="/Home/SumUpTo">
+    <label for="n2">Digite um número:</label>
+    <input type="number" name="n" id="n2" value="10" />
+    <button type="submit">Executar</button>
+</form>
+
+<hr />
+<h4>3. Contar caracteres de uma string</h4>
+<form method="get" action="/Home/CountCharacters">
+    <label for="input">Digite uma palavra:</label>
+    <input type="text" name="input" id="input" value="Exemplo" />
+    <button type="submit">Executar</button>
+</form>
+
+<hr />
+<h4>4. Verificar se uma palavra é um palíndromo</h4>
+<form method="get" action="/Home/IsPalindrome">
+    <label for="word">Digite uma palavra:</label>
+    <input type="text" name="word" id="word" value="arara" />
+    <button type="submit">Executar</button>
+</form>
