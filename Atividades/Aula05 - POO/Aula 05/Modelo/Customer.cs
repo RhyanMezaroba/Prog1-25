@@ -12,14 +12,10 @@
 
         public bool Validate()
         {
-            return true;
-        }
-        public Customer Retrieve()
-        {
-            return new Customer();
-        }
-        public void Save(Customer customer)
-        {
+            bool isValid = true;
+            isValid = !string.IsNullOrEmpty(this.Name) && (this.Id > 0);
+
+            return isValid;
         }
     }
 }
