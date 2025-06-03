@@ -28,7 +28,7 @@ namespace Modelo
             this.Id = orderId;
             this.ShippingAddress = new Address
             {
-                Street = $"Endereço {orderId}"
+                Street1 = $"Endereço {orderId}"
             };
         }
 
@@ -42,7 +42,7 @@ namespace Modelo
                 Console.WriteLine("Erro: Cliente não pode ser nulo.");
             }
 
-            if (ShippingAddress == null || string.IsNullOrWhiteSpace(ShippingAddress.Street))
+            if (ShippingAddress == null || string.IsNullOrWhiteSpace(ShippingAddress.Street1))
             {
                 isValid = false;
                 Console.WriteLine("Erro: Endereço de entrega é obrigatório.");
