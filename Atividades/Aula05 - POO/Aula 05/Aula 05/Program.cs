@@ -34,7 +34,7 @@ app.Run();
 
 static void FillCustomerData()
 {
-    for(int i = 0; i < 10; i++)
+    for(int i = 1; i < 10; i++)
     {
         Customer customer = new() // forma para facilitar e economizar código
         {
