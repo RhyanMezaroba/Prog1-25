@@ -1,32 +1,40 @@
 ﻿@model List<Modelo.Product>
 
-<a asp-action="Create" asp-controller="Product" class="btn btn-light">Novo Product</a>
+<div class="mb-3">
+    <a asp-action="Create" asp-controller="Product" class="btn btn-primary">Novo Produto</a>
+    <a asp-action="ExportDelimitatedFile" asp-controller="Product" class="btn btn-secondary ms-2">Exportar Dados</a>
+</div>
 
-@if (Model.Count > 0)
+@if (Model != null && Model.Count > 0)
 {
     <table class="table table-striped table-bordered table-hover">
         <thead class="table-dark">
             <tr>
                 <th>Id</th>
                 <th>Nome</th>
-                <th></th>
-                <th></th>
+                <th>Preço</th>
+                <th>Descrição</th>
+                <th style="width: 50px;">Excluir</th>
+                <th style="width: 50px;">Atualizar</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (Modelo.Product product in Model)
+            @foreach (var product in Model)
             {
                 <tr>
                     <td>@product.Id</td>
                     <td>@product.ProductName</td>
-                    <td>
-                        <a asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" title="Excluir Product">
-                            <i class="fa-solid fa-trash"></i>
+                    <td>R$ @product.CurrentPrice.ToString("F2")</td>
+                    <td>@product.Description</td>
+                    <td class="text-center">
+                        <a asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" title="Excluir Produto"
+                           onclick="return confirm('Tem certeza que deseja excluir este produto?');">
+                            <i class="fa-solid fa-trash text-danger"></i>
                         </a>
                     </td>
-                    <td>
-                        <a asp-action="Update" asp-controller="Product" asp-route-id="@product.Id" title="Atualizar Product">
-                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                    <td class="text-center">
+                        <a asp-action="Update" asp-controller="Product" asp-route-id="@product.Id" title="Atualizar Produto">
+                            <i class="fa-solid fa-pen text-primary"></i>
                         </a>
                     </td>
                 </tr>
@@ -36,10 +44,7 @@
 }
 else
 {
-    <div>
-        Não existem registros de products
+    <div class="alert alert-info" role="alert">
+        Não existem registros de produtos.
     </div>
 }
-
-<a asp-action="ExportDelimitatedFile"
-   asp-controller="Product" class="btn btn-Light">Exportar Dados</a>

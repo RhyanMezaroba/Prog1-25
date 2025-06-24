@@ -21,6 +21,6 @@ namespace Aula05.ViewModels
         [Display(Name = "Valor Total")]
         public decimal TotalOrderValue { get; set; }
 
-        public string ShippingAddress { get; set; }
+        public string? ShippingAddress { get; set; }
     }
 }

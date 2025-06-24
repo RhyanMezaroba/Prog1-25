@@ -1,0 +1,90 @@
+﻿@model Aula05.ViewModels.OrderPlacementViewModel
+@{
+    ViewData["Title"] = "Fazer Pedido";
+}
+
+<h1>Fazer Pedido</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<form asp-action="PlaceOrder" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group mb-3">
+        <label asp-for="SelectedCustomerId" class="control-label">Cliente:</label>
+        <select asp-for="SelectedCustomerId" asp-items="@Model.Customers" class="form-control" onchange="this.form.submit()">
+            <option value="">-- Selecione um Cliente --</option>
+        </select>
+        <span asp-validation-for="SelectedCustomerId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="SelectedProductIdToAdd" class="control-label">Adicionar Item:</label>
+        <select asp-for="SelectedProductIdToAdd" asp-items="@Model.AvailableProducts" class="form-control d-inline-block w-75">
+            <option value="">-- Selecione um Produto --</option>
+        </select>
+        <button type="submit" name="action" value="AddItem" class="btn btn-primary d-inline-block align-baseline ms-2">Adicionar</button>
+    </div>
+
+    <h3>Itens do Pedido</h3>
+    @if (Model.OrderItems.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Qtd</th>
+                    <th>Valor</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.OrderItems.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <input type="hidden" asp-for="OrderItems[i].ProductId" />
+                            <input type="hidden" asp-for="OrderItems[i].ProductName" />
+                            @Model.OrderItems[i].ProductName
+                        </td>
+                        <td>
+                            <input type="number" asp-for="OrderItems[i].Quantity" class="form-control" min="1" onchange="this.form.submit()" />
+                            @* REMOVIDO: name="action" value="UpdateQuantity_@i" *****************************************@
+                        </td>
+                        <td>
+                            <input type="hidden" asp-for="OrderItems[i].Price" />
+                            R$ @Model.OrderItems[i].Price.ToString("F2")
+                        </td>
+                        <td>
+                            R$ @Model.OrderItems[i].TotalItemValue.ToString("F2")
+                        </td>
+                        <td>
+                            <button type="submit" name="action" value="RemoveItem_@i" class="btn btn-danger btn-sm">X</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-end">
+            <h4>Total do Pedido: R$ @Model.TotalOrderValue.ToString("F2")</h4>
+        </div>
+    }
+    else
+    {
+        <p>Nenhum item adicionado ao pedido ainda.</p>
+    }
+
+    <button type="submit" name="action" value="SaveOrder" class="btn btn-success mt-3">Salvar</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

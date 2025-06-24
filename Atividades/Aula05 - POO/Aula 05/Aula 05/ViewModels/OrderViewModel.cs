@@ -10,7 +10,7 @@ namespace Aula_05.ViewModels
     }
     public class SelectedItem
     { 
-        public bool IsSelected { get; set; } = false; //aqui o booleano inicia como falso sem ter "false", ou seja, ó fru fru pra não se perder
+        public bool IsSelected { get; set; } = false;
         public OrderItem? OrderItem { get; set; } = null!;
     }
 }

@@ -1,4 +1,9 @@
 ﻿using Modelo;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Repository
 {
@@ -8,19 +13,21 @@ namespace Repository
         {
             foreach (Product c in CustomerData.Products)
             {
-                if (c.Id == id) return c;
+                if (c.Id == id)
+                {
+                    return c;
+                }
             }
-
             return null!;
         }
 
         public List<Product> RetrieveByName(string name)
         {
-            List<Product> ret = [];
+            List<Product> ret = new List<Product>();
 
             foreach (Product c in CustomerData.Products)
             {
-                if (c.ProductName!.ToLower().Contains(name.ToLower()))
+                if (c.ProductName!.ToLower().Contains(name))
                 {
                     ret.Add(c);
                 }
@@ -34,16 +41,25 @@ namespace Repository
             return CustomerData.Products;
         }
 
-        public bool Delete(Product product)
+        public void Save(Product customer)
         {
-            return CustomerData.Products.Remove(product);
+            customer.Id = GetCount() + 1;
+            CustomerData.Products.Add(customer);
+        }
+
+        public bool Delete(Product customer)
+        {
+            return CustomerData.Products.Remove(customer);
         }
 
         public bool DeleteById(int id)
         {
-            Product product = Retrieve(id);
+            Product customer = Retrieve(id);
 
-            if (product != null) return Delete(product);
+            if (customer != null)
+            {
+                return Delete(customer);
+            }
 
             return false;
         }
@@ -53,14 +69,8 @@ namespace Repository
             Product oldProduct = Retrieve(newProduct.Id);
 
             oldProduct.ProductName = newProduct.ProductName;
-            oldProduct.Description = newProduct.Description;
             oldProduct.CurrentPrice = newProduct.CurrentPrice;
-        }
-
-        public void Save(Product product)
-        {
-            product.Id = GetCount() + 1;
-            CustomerData.Products.Add(product);
+            oldProduct.Description = newProduct.Description;
         }
 
         public int GetCount()
